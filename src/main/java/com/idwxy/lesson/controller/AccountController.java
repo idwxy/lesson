@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+// 通过上传 Account 添加用户来熟悉 Jackson 的使用
 @RestController
 @RequestMapping("/account")
 public class AccountController {
